@@ -124,6 +124,7 @@ input, select, textarea {
 	strong, b {
 		color: #787878;
 		font-weight: 400;
+		font-size: 12px
 	}
 
 	em, i {
@@ -2628,12 +2629,18 @@ input, select, textarea {
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #ffffffc2;
+		}
+	
+		#header h2{
+			font-size: 1.25em;
+			margin-bottom: 30px;
+			margin-top: -10px
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			color: rgba(255, 255, 255, 0.975);
+			font-size: 2.15em;
 			line-height: 1.75em;
 			margin: 0;
 		}
